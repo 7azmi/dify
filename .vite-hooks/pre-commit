@@ -1,7 +1,7 @@
 #!/bin/sh
 # get the list of modified files
 files=$(git diff --cached --name-only)
-
+fds
 # check if api or web directory is modified
 
 api_modified=false
